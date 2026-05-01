@@ -75,9 +75,10 @@
             // 
             // name1TB
             // 
+            this.name1TB.Font = new System.Drawing.Font("Tahoma", 12F);
             this.name1TB.Location = new System.Drawing.Point(465, 279);
             this.name1TB.Name = "name1TB";
-            this.name1TB.Size = new System.Drawing.Size(318, 24);
+            this.name1TB.Size = new System.Drawing.Size(318, 32);
             this.name1TB.TabIndex = 3;
             // 
             // label3
@@ -94,9 +95,10 @@
             // 
             // name2TB
             // 
+            this.name2TB.Font = new System.Drawing.Font("Tahoma", 12F);
             this.name2TB.Location = new System.Drawing.Point(465, 393);
             this.name2TB.Name = "name2TB";
-            this.name2TB.Size = new System.Drawing.Size(318, 24);
+            this.name2TB.Size = new System.Drawing.Size(318, 32);
             this.name2TB.TabIndex = 5;
             // 
             // Form1
