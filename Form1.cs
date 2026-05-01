@@ -16,5 +16,12 @@ namespace TIC_TAC_TOE
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            gameFrm frm = new gameFrm(name1TB.Text,name2TB.Text);
+            frm.ShowDialog();
+            this.Hide();
+        }
     }
 }
